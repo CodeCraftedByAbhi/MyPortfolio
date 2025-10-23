@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-  baseURL: "https://my-portfolio-backend-murex.vercel.app/",
+  baseURL: "https://my-portfolio-backend-murex.vercel.app",
   withCredentials: true,
 });
 
