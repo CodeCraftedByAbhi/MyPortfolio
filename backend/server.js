@@ -13,8 +13,8 @@ connectDB();
 app.use(express.json());
 
 const allowedOrigins = [
-  "http://localhost:5173",       
-  "http://localhost:5174" 
+  "https://my-portfolio-admin-psi.vercel.app/home",       
+  "https://my-portfolio-user-frontend.vercel.app/" 
 ];
 
 app.use(cors({
