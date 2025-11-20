@@ -44,7 +44,7 @@ export default function Home() {
         transition={{ duration: 1 }}
         className="relative z-10 text-center px-6"
       >
-        <div className="bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl p-8 sm:p-12 max-w-3xl mx-auto shadow-xl">
+        <div className="bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl p-8 sm:p-12 max-w-4xl mx-auto shadow-xl cont">
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -60,7 +60,7 @@ export default function Home() {
             transition={{ delay: 0.5, duration: 0.8 }}
             className="text-xl sm:text-2xl text-gray-300 mt-4 font-light"
           >
-            Full Stack MERN Developer | 4+ Years Experience
+            I build high-quality Websites & SaaS Apps that help businesses grow.
           </motion.h2>
 
           <motion.p
@@ -71,7 +71,15 @@ export default function Home() {
           >
             I specialize in building scalable, modern web applications using React,
             Node.js, MongoDB, and TailwindCSS. Passionate about UI/UX, automation, and
-            AI-powered development.
+            AI-powered development. India + US-based developer.
+          </motion.p>
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.8, duration: 0.8 }}
+            className="text-gray-400 mt-2 leading-relaxed max-w-2xl mx-auto font-extrabold"
+          >
+           Book a Free Consultation
           </motion.p>
 
           <motion.div
@@ -91,6 +99,12 @@ export default function Home() {
               className="px-6 py-3 bg-purple-500/20 hover:bg-purple-500/30 border border-purple-400/50 rounded-full text-purple-400 font-semibold transition backdrop-blur-md"
             >
               About Me 💡
+            </a>
+            <a
+              href="/contact"
+              className="px-6 py-3 bg-pink-500/20 hover:bg-pink-500/30 border border-pink-400/50 rounded-full text-pink-400 font-semibold transition backdrop-blur-md"
+            >
+              Contact 📞
             </a>
           </motion.div>
         </div>

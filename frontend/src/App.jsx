@@ -9,6 +9,7 @@ import Blogs from "./pages/Blogs";
 import Experience from "./pages/Experience"
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
+import Services from "./pages/Service";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/service" element={<Services />} />
         </Routes>
         <Footer/>
       </div>
