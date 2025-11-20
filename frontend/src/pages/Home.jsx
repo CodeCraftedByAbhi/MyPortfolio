@@ -101,10 +101,10 @@ export default function Home() {
               About Me 💡
             </a>
             <a
-              href="/contact"
+              href="/service"
               className="px-6 py-3 bg-pink-500/20 hover:bg-pink-500/30 border border-pink-400/50 rounded-full text-pink-400 font-semibold transition backdrop-blur-md"
             >
-              Contact 📞
+              My Services & Packages 📞
             </a>
           </motion.div>
         </div>
