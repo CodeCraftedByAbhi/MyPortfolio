@@ -15,7 +15,7 @@ app.use(express.json());
 const allowedOrigins = [
   "https://my-portfolio-admin-psi.vercel.app",
   "https://my-portfolio-user-frontend.vercel.app",
-  https://abhishek.org.in
+  "https://abhishek.org.in"
 ];
 
 app.use(cors({
