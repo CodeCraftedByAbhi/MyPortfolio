@@ -84,7 +84,7 @@ export default function Contact() {
             type="tel"
             name="contact"
             required
-            placeholder="+91 98765 43210"
+            placeholder="+91 ***** *****"
             value={form.contact}
             onChange={handleChange}
             className="w-full p-3 rounded-lg bg-white/10 border border-white/20 text-white focus:ring-2 focus:ring-cyan-500"
